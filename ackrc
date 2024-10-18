@@ -1,9 +1,0 @@
---type-add=ruby=.haml,.sass,.snippet,.eku,.prawn,.feature,.csvbuilder
---type-add=css=.scss
---ignore-dir=log
---ignore-dir=tmp
---ignore-dir=vendor
---ignore-dir=.cabal-sandbox
---ignore-dir=.stack-work
---ignore-dir=dist
---ignore-file=match:.*\.bundle\.js
