@@ -3,7 +3,6 @@
 brew 'mas'
 
 mas 'Bitwarden',       id: 1352778147
-mas 'CotEditor',       id: 1024640650
 mas 'NordVPN',         id: 905953485
 mas 'Amphetamine',     id: 937984704
 mas 'Infuse',          id: 1136220934
@@ -20,6 +19,9 @@ brew 'mc'
 brew 'pipx'
 brew 'wget'
 
+cask 'coteditor'
+cask 'goldendict'
 cask 'iterm2'
 cask 'parsec'
+cask 'vscodium'
 cask 'xquartz'
