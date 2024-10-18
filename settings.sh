@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#don't reopen apps on reboot 
+defaults write com.apple.loginwindow LoginwindowLaunchesRelaunchApps -bool false
+
 # Expand "Save" and "Print" panels.
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
